@@ -24,7 +24,7 @@ namespace Tests
         }
 
         [Test]
-        public async Task ReturnsTextStartingWithHelloWorld()
+        public async Task ShouldReturnExpectedText()
         {
             var result = await _client.GetStringAsync("/");
 
